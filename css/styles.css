@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar a:hover {
+  color: #0b5ed7;
+}
+
+.navbar-togler {
+  box-shadow: none !important;
+}
+
+.logo {
+  font-size: 30px;
+  color: #0b5ed7;
+  font-weight: 700;
+}
