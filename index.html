@@ -29,23 +29,23 @@
   <!-- Menu Principal -->
   <nav class="navbar navbar-expand-lg my-4">
     <div class="container">
-      <a class="navbar-brand logo" href="#"><i class="bi bi-arrow-repeat"></i>E-Trocas</a>
+      <a class="navbar-brand logo" href="#"><i class="bi bi-arrow-repeat"></i> E-Trocas</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i class="bi bi-filter-right"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Roupas</a>
+            <a class="nav-link" aria-current="page" href="#">Roupas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Brinquedos</a>
+            <a class="nav-link" aria-current="page" href="#">Brinquedos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Login</a>
+            <a class="nav-link" aria-current="page" href="#">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contado</a>
+            <a class="nav-link" aria-current="page" href="#">Contado</a>
           </li>
         </ul>
       </div>
@@ -55,16 +55,43 @@
 
   <!-- conteudo principal da página -->
   <main class="container my-4">
-    
-    <figure class="text-center">
-      <img src="./images/comuns/app.svg" alt="Imagem do Aplicativo E-Trocas">
-    </figure>
 
-    <section class="text-center my-4">
-      <h2 class="text-primary">Olá, nós somos o E-Trocas, a maior plataforma de trocas da Internet</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur adipisci cum aliquam!</p>
-      <a href="#" class="btn btn-primary">Baixar nosso aplicativo <i class="bi bi-cloud-download ms-1"></i></a>
+    <!-- definindo a linha do grid - sem a class "row", não funciona as classes responsivas-->
+    <article class="row border border-1 rounded-2 py-5 d-flex align-items-center">
 
+      
+      <figure class="text-center col-md-6">
+        <img src="./images/comuns/app.svg" alt="Imagem do Aplicativo E-Trocas">
+      </figure>
+      
+      <section class="text-center my-4 col-md-6">
+        <h2 class="text-primary mb-3">Olá, nós somos o E-Trocas, a maior plataforma de trocas da Internet</h2>
+        <p class="mb-4 w-75 m-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur adipisci cum aliquam!</p>
+        <a href="#" class="btn btn-primary">Baixar nosso aplicativo <i class="bi bi-cloud-download ms-1"></i></a>
+        
+      </section>
+    </article>
+
+    <!-- produtos que querem trocar -->
+    <h2 class="my-5 logo">Roupas</h2>
+
+    <!-- criar uma linha do grid -->
+    <section class="row">
+      <!-- 1º Card -->
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img src="./images/roupas/roupa1.jpg" class="card-img-top" alt="Macacão">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Macacão de Guitarra</h5>
+            <div class="d-flex justify-content-between">
+              <p>Tamanho: G</p>
+              <p>Cor: Branca</p>
+            </div>
+            <h5 class="color-orange">Usuário: Telma Lins</h5>
+            <a href="#" class="btn btn-primary">Entrar em contato</a>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
