@@ -36,13 +36,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Roupas</a>
+            <a class="nav-link" aria-current="page" href="#roupas">Roupas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Brinquedos</a>
+            <a class="nav-link" aria-current="page" href="#brinquedos">Brinquedos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Login</a>
+            <a class="nav-link" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Contado</a>
@@ -73,13 +73,13 @@
     </article>
 
     <!-- produtos que querem trocar -->
-    <h2 class="my-5 logo">Roupas</h2>
+    <h2 class="mt-5 mb-3 logo">Roupas</h2>
 
     <!-- criar uma linha do grid -->
-    <section class="row">
+    <section class="row" id="roupas">
       <!-- 1º Card -->
-      <div>
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-4 mb-3">
+        <div class="card">
           <img src="./images/roupas/roupa1.jpg" class="card-img-top" alt="Macacão">
           <div class="card-body">
             <h5 class="card-title text-primary">Macacão de Guitarra</h5>
@@ -87,12 +87,145 @@
               <p>Tamanho: G</p>
               <p>Cor: Branca</p>
             </div>
-            <h5 class="color-orange">Usuário: Telma Lins</h5>
-            <a href="#" class="btn btn-primary">Entrar em contato</a>
-          </div>
+            <h5 class="color-orange mb-3">Usuário: Telma Lins</h5>
+            <div class="d-grid">
+              <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+            </div>
+            </div>
         </div>
       </div>
+
+       <!-- 2º Card -->
+       <div class="col-lg-4 mb-3">
+        <div class="card">
+          <img src="./images/roupas/roupa2.jpg" class="card-img-top" alt="Conjunto">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Conjunto Basquete</h5>
+            <div class="d-flex justify-content-between">
+              <p>Tamanho: M</p>
+              <p>Cor: Branca/Azul</p>
+            </div>
+            <h5 class="color-orange mb-3">Usuário: Tânia Tilha</h5>
+            <div class="d-grid">
+              <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+            </div>
+            </div>
+        </div>
+      </div>
+
+             <!-- 3º Card -->
+             <div class="col-lg-4 mb-3">
+              <div class="card">
+                <img src="./images/roupas/roupa3.jpg" class="card-img-top" alt="Felicidade">
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Conjunto Happy</h5>
+                  <div class="d-flex justify-content-between">
+                    <p>Tamanho: G</p>
+                    <p>Cor: Branca/Laranja</p>
+                  </div>
+                  <h5 class="color-orange mb-3">Usuário: Wilma Dias</h5>
+                  <div class="d-grid">
+                    <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+                  </div>
+                  </div>
+              </div>
+            </div>
     </section>
+
+
+
+     <!-- produtos que querem trocar -->
+     <h2 class="mt-5 mb-3 logo">Brinquedos</h2>
+
+     <!-- criar uma linha do grid -->
+     <section class="row" id="brinquedos">
+       <!-- 1º Card -->
+       <div class="col-md-6 col-lg-3 mb-3">
+         <div class="card">
+           <img src="./images/brinquedos/brinquedo1.jpg" class="card-img-top" alt="Snoopy">
+           <div class="card-body">
+             <h5 class="card-title text-primary">Snoopy - Blocos</h5>
+             <h5 class="color-orange mb-3">Usuário: Roberta Souza</h5>
+             <div class="d-grid">
+               <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+             </div>
+             </div>
+         </div>
+       </div>
+ 
+        <!-- 2º Card -->
+        <div class="col-md-6 col-lg-3 mb-3">
+         <div class="card">
+           <img src="./images/brinquedos/brinquedo2.jpg" class="card-img-top" alt="Betoneira">
+           <div class="card-body">
+             <h5 class="card-title text-primary">Caminhão Betoneira</h5>
+             <h5 class="color-orange mb-3">Usuário: Jorge Souza</h5>
+             <div class="d-grid">
+               <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+             </div>
+             </div>
+         </div>
+       </div>
+ 
+              <!-- 3º Card -->
+              <div class="col-md-6 col-lg-3 mb-3">
+               <div class="card">
+                 <img src="./images/brinquedos/brinquedo3.jpg" class="card-img-top" alt="Leão">
+                 <div class="card-body">
+                   <h5 class="card-title text-primary">Leão de Pelucia</h5>
+                   <h5 class="color-orange mb-3">Usuário: Jorge Souza</h5>
+                   <div class="d-grid">
+                     <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+                   </div>
+                   </div>
+               </div>
+             </div>
+
+                           <!-- 4º Card -->
+                           <div class="col-md-6 col-lg-3 mb-3">
+                            <div class="card">
+                              <img src="./images/brinquedos/brinquedo4.jpg" class="card-img-top" alt="Galinha Pintadinha">
+                              <div class="card-body">
+                                <h5 class="card-title text-primary">Galinha Pintadinha</h5>
+                                <h5 class="color-orange mb-3">Usuário: Carla Flores</h5>
+                                <div class="d-grid">
+                                  <a href="#" class="btn btn-outline-primary">Quero Trocar</a>
+                                </div>
+                                </div>
+                            </div>
+                          </div>
+     </section>
+
+
+     <!-- Modal inicio -->
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 logo" id="exampleModalLabel" ><i class="bi bi-arrow-repeat"></i> E-Trocas</h1>
+        <p>Olá Usuário, faça seu login</p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="dados" name="dados" method="get" action="">
+          <div>
+            <label for="user" class="form-label">Usuário</label>
+            <input type="text" id="user" name="user" class="form-control" placeholder="Nome do Usuário">
+          </div>
+          <div>
+            <label for="senha" class="form-label">Senha</label>
+            <input type="text" id="senha" class="form-control" placeholder="Digite sua Senha" minlength="4" maxlength="8" required>
+          </div>
+        </form>
+      </div>
+        <button type="button" class="btn btn-primary">Fazer Login</button>
+    </div>
+  </div>
+</div>
+
+     <!-- fim Modal -->
+
 
   </main>
 
