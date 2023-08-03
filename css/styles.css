@@ -6,6 +6,10 @@ body {
   color: #0b5ed7;
 }
 
+i {
+  font-size: 45px;
+}
+
 .navbar-togler {
   box-shadow: none !important;
 }
@@ -16,6 +20,30 @@ body {
   font-weight: 700;
 }
 
+.logo2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  padding: 4px;
+}
+
 .color-orange {
   color: #ff6600;
+}
+
+.img-login {
+  width: 150px;
+}
+
+.img-login-pagina {
+  width: 200px;
+}
+
+.foto img {
+  width: 40px;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
 }

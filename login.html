@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Trocas - Gerenciar Trocas</title>
+
+     <!-- chamada do ícone da aba do navegador -->
+     <link rel="shortcut icon" href="./images/comuns/rotate-solid.svg" type="image/x-icon">
+
+
+     <!-- Chamada do Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet">
+
+
+     <!-- Chamada do Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+     <!-- chamada da CSS do BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+     <!-- Chamada da nossa CSS -->
+     <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    
+    <!-- header da página - podemos ter vários haders na mesma página -->
+    <header class="bg-primary text-light p-5 d-flex justify-content-between">
+        <div>
+            <h2><i class="bi bi-arrow-repeat"></i> E-Trocas</h2>
+            <h5>Olá Usuário, faça seu login</h5>
+        </div>
+    </header>
+
+    <!-- cadastrar item -->
+    <main class="container my-5">
+
+      <figure class="text-center p-5">
+        <img src="./images/comuns/login.png" class="img-login-pagina" alt="Imagem da página de login">
+      </figure>
+
+      <form id="dados" name="dados" method="get" action="./admin.html">
+        <div class="my-3">
+          <label for="user" class="form-label">Usuário</label>
+          <input type="text" id="user" name="user" class="form-control" placeholder="Nome do Usuário"
+            minlength="4" maxlength="15" required>
+        </div>
+        <div class="my-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input type="password" id="senha" class="form-control" placeholder="Digite sua Senha" minlength="4"
+            maxlength="8" required>
+        </div>
+
+        <div class="my-4 d-flex justify-content-end">
+          <Input type="submit" class="btn btn-primary" value="Fazer Login">
+        </div>
+
+      </form>
+
+
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
